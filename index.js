@@ -8,7 +8,7 @@ anoAtual = Number (anoAtual);
 idadeUsuario = Number (idadeUsuario);
 
 
-alert ("Voce tem " + anoNascimento + " anos ")
+alert ("Voce tem " + anoNascimento + " ano ")
 if (anoNascimento <= 18){
   alert ("Você nao tem idade para acessar" + nomeUsuario + "!")
 }else{
