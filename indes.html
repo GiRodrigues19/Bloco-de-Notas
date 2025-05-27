@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Validador de Idade</title>
+</head>
+<body>
+  <h2>Verifique sua idade</h2>
+
+  <label>Digite seu nome:</label>
+<input type="text" id="nome" placeholder="Digite seu nome aqui"><br><br>
+
+<label>Digite seu ano de nascimento:</label>
+<input type="number" id="nascimento" placeholder="Ex: 2005"><br><br>
+
+<label>Digite o ano atual:</label>
+<input type="number" id="anoAtual" placeholder="Ex: 2025"><br><br>
+
+  <button onclick="verificarIdade()">Verificar</button>
+
+  <p id="resultado"></p>
+
+  <script>
+    function verificarIdade() {
+      let nomeUsuario = document.getElementById("nome").value;
+      let idadeUsuario = Number(document.getElementById("nascimento").value);
+      let anoAtual = Number(document.getElementById("anoAtual").value);
+
+      let idade = anoAtual - idadeUsuario;
+
+      let mensagem = "Olá, " + nomeUsuario + "! Você tem " + idade + " anos.<br>";
+
+      if (idade < 18) {
+        mensagem += "Você <strong>não</strong> tem idade para acessar.";
+      } else {
+        mensagem += "Você tem idade para prosseguir.";
+      }
+
+      document.getElementById("resultado").innerHTML = mensagem;
+    }
+  </script>
+</body>
+</html>

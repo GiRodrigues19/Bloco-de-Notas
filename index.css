@@ -1,0 +1,74 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Validador de Idade</title>
+  <link rel="stylesheet" href="style.css"> <!-- LIGANDO o CSS -->
+</head>
+
+/* Define o estilo do corpo inteiro da página */
+body {
+  background-color: #f0f4f8; /* Cor de fundo suave */
+  font-family: Algerian, sans-serif; /* Fonte sem serifa, fácil de ler */
+  display: flex; /* Flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Ocupa 100% da altura da tela */
+  margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo de um contêiner principal para organizar os elementos */
+.container {
+  background-color: white; /* Fundo branco pro conteúdo */
+  padding: 30px; /* Espaço interno */
+  border-radius: 12px; /* Cantos arredondados */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 350px; /* Largura fixa */
+  text-align: center; /* Centraliza o texto dentro */
+}
+
+/* Estilo do título */
+h2 {
+  color: #333; /* Cor escura */
+  margin-bottom: 20px;
+}
+
+/* Estilo para rótulos (labels) */
+label {
+  display: block; /* Ocupa uma linha inteira */
+  margin-bottom: 6px;
+  color: #555;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Estilo das caixas de entrada (input) */
+input {
+  width: 100%; /* Ocupa toda a largura do contêiner */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Estilo do botão */
+button {
+  background-color: #007bff; /* Azul padrão */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
+
+/* Mensagem de resultado */
+#resultado {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #444;
+}
