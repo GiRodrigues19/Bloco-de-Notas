@@ -9,7 +9,7 @@ idadeUsuario = Number (idadeUsuario);
 
 
 alert ("Voce tem " + anoNascimento + " ano ")
-if (anoNascimento <= 19){
+if (anoNascimento <= 18){
   alert ("Você nao tem idade para acessar" + nomeUsuario + "!")
 }else{
   alert ("Você tem idade para prosseguir, " + nomeUsuario + ".")
