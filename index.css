@@ -7,12 +7,12 @@
 /* Define o estilo do corpo inteiro da página */
 body {
   background-color: #f0f4f8; /* Cor de fundo suave */
-  font-family: Algerian, sans-serif; /* Fonte sem serifa, fácil de ler */
-  display: flex; /* Flexbox para centralizar o conteúdo */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100vh; /* Ocupa 100% da altura da tela */
-  margin: 0; /* Remove margens padrão */
+  font-family Algerian, sans-serif /* Fonte sem serifa, fácil de ler */
+  display flex/* Flexbox para centralizar o conteúdo */
+  justify-content center /* Centraliza horizontalmente */
+  align-items center /* Centraliza verticalmente */
+  height 100vh /* Ocupa 100% da altura da tela */
+  margin 0 /* Remove margens padrão */
 }
 
 /* Estilo de um contêiner principal para organizar os elementos */
